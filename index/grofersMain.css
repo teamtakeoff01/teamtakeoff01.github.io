@@ -1,0 +1,683 @@
+.grofers-color{
+    color: #e96125;
+    background-color: #fff;
+}
+
+#user-phone-value{
+    outline: 0;
+}
+.grofers-logo{
+    width: 50px;
+    height: 48px;
+    background-size: 51px;
+    background-image: url('../../images/Logo_icon.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.grofers-title{
+    font-family: 'loveloblack';
+    font-size: 30px;
+    vertical-align: 50%;
+    padding-left:5px;
+}
+
+.navbar .navbar-nav > li > a {
+    color:#000;
+}
+
+.navbar .navbar-nav > li > a.grofers-login{
+    /*color: #e96125;*/
+}
+
+.center-subheading{
+    display: inline-block;
+    font-size: 21px;
+}
+
+.grofers-anything{
+    color:#e96125;
+    display: none;
+    font-size: 25px;
+    text-align: right;
+    width: 122px;
+}
+
+.display-first{
+    display: inline-block;
+}
+
+.flag-dropdown{
+    display: none;
+}
+
+
+.top-buffer { margin-top:0px; }
+
+.top-buffer-60 { margin-top:60px; }
+
+.top-buffer-10 { margin-top:10px; }
+
+.top-buffer-20 { margin-top:20px; }
+
+.btn:hover {
+    border:1px solid #e96125 ;
+}
+
+.navbar-toggle > .icon-bar {
+    background-color:#000;
+}
+
+.nav > li:hover, .nav > li:focus{
+    opacity: .5;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-x:hidden;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  /*background-color: #f5f5f5;*/
+  color:#9d9d9d;
+}
+
+
+.heart{
+    color: rgb(228, 6, 6);
+    padding-left: 3px;
+    padding-right: 4px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.center-heading{
+    font-size: 45px;
+    font-weight: lighter;
+}
+.center-sub-heading{
+    font-size: 25px;
+}
+
+.navbar-fixed-top{
+    background-color: white;
+}
+
+.navbar-fixed-top .container{
+    height:70px;
+}
+
+.navbar-header{
+    height:70x;
+}
+
+.grofers-android-app-image{
+    /*background: url('../../images/grofers_app_nexus.png') no-repeat;*/
+    /*background-repeat: no-repeat;*/
+    background: url('../../images/Android.jpg') no-repeat;
+    height:485px;
+    width:250px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    background-position-x: -12px;
+
+}
+
+.grofers-ios-app-image{
+    /*background: url('../../images/grofers_app_ios.png') no-repeat;*/
+    /*background-repeat: no-repeat;*/
+    background: url('../../images/IOS.jpg') no-repeat;
+    height:485px;
+    width:260px;
+    background-position-x: -7px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.download-play-store{
+    margin-top:10px;
+}
+
+.mobile-footer {
+    color:#000;
+}
+
+.mobile-footer .grofers-social-icon{
+    color:#000;
+}
+.mobile-footer div.privacy{
+    border-left: 1px solid #ccc;
+}
+.mobile-footer .text-right{
+    text-align: right;
+}
+.white{
+    color:white;
+}
+
+.instant-icon{
+    position: absolute;
+    padding-top: 7px;
+    font-size: 15px;
+    left: 278px;
+    
+}
+
+.alert-danger{
+    background-color:white;
+    color:#E23F2A;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.alert-success{
+    background-color: white;
+    color:#319833;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+@font-face{
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'loveloblack';
+    src: url('../../fonts/lovelo_black-webfont.eot');
+    src: url('../../fonts/lovelo_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lovelo_black-webfont.woff2') format('woff2'),
+         url('../../fonts/lovelo_black-webfont.woff') format('woff'),
+         url('../../fonts/lovelo_black-webfont.ttf') format('truetype'),
+         url('../../fonts/lovelo_black-webfont.svg#loveloblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+.constant-padding{
+    padding: 30px 100px;
+}
+.out-box {
+    display: block;
+    padding: 30px 0;
+}
+input:focus, .btn:focus, .btn:active {
+    outline:0;
+}
+.table{
+  margin: 0px auto;
+  width: 0;
+}
+.table>tbody>tr{
+  border: 1px solid #eee;
+}
+.table>tbody>tr>td{
+  padding: 0px;
+  vertical-align: middle;
+  border: none;
+}
+.table>tbody>tr>td.fixwidth{
+  /*width: 120px;*/
+}
+.intl-tel-input{
+  display: block;
+}
+
+.download-app-from-store-btn{
+    width:170px;
+    cursor: pointer;
+}
+.fixwidth .btn{
+  display: block;
+  width: 100%;
+  padding: 7px 12px 4px;
+}
+.copyright{
+    font-size: 10px;
+    vertical-align: 0%;
+    margin-top: 7px;
+}
+
+/*#get-app-button{
+    font-size: 20px;
+  font-weight: 300;
+  display: block;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  text-transform: uppercase;
+}*/
+
+.or-class{
+    font-size: 16px;
+}
+
+.call-grofers{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.call-grofers a{
+    color:#e96125;
+}
+
+.call-grofers a:active, a:hover, a:focus{
+    color:#e96125;
+    text-decoration: none;
+}
+.use-case-text{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.90-min-delivery{
+    margin-top: 20px;
+}
+.phone-section{
+  padding: 0px;
+  border-radius: 4px;
+}
+.fa-lg{
+    vertical-align: middle;
+}
+
+.btn{
+    border-radius: 0px;
+}
+.terms a{
+    cursor: pointer;
+    color: #000;
+}
+.panel-heading h4 a:hover, a:active, a:focus{
+    color: #000;
+}
+.minz-bold{
+    font-weight: 400;
+}
+.loader{
+  margin-top: 10px;
+  width: 25px;
+  visibility: hidden;
+}
+
+/* Download app btns */
+.download-app-btn{
+  width: 155px;
+  height: 52px;
+  cursor: pointer;
+  margin: 10px 7px;
+}
+.or{
+  width: 35%;
+  text-align: center;
+  border-bottom: 1px solid #e7e4da;
+  line-height: 0.1em;
+  margin: 35px auto 40px;
+}
+.or span { 
+    background:#fff; 
+    color: #333333;
+    font-style: italic;
+    padding:0 10px; 
+}
+
+/* Phone number section */
+
+#append-data .intl-tel-input{
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+  font-weight: 300;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #eee;
+  padding: 5px;
+}
+.grofers-social-icon-phone {
+  font-size: 22px;
+  color:#9d9d9d;
+}
+.phone-icon{
+  width: 47px;
+}
+.fa-lg{
+  vertical-align: -webkit-baseline-middle;
+}
+.code{
+  font-size: 22px;
+  color: #333333;
+  margin: 0 0px;
+  display: none;
+  width: 47px;
+}
+.intl-tel-input input{
+  background: none;
+  line-height: 1.4em;
+  display: block;
+}
+.intl-tel-input div{
+  display: block;
+  float: left;
+}
+.container .intl-tel-input #user-phone-value{
+  font-size: 22px;
+  border:none;
+  width: 100%;
+}
+#get-app-button{
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left: -5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #e96125;
+  color: #fff;
+}
+#get-app-button:hover, #get-app-button:focus{
+  background: #de5416;
+  color: #fff;
+}
+.top-section{
+  margin: 12vh auto;
+  max-width: 610px;
+}
+
+/* Personalised Baskets */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+}
+.basket-heading{
+  margin: 30px auto 10px;
+  color: #333333;
+}
+.below-basket-hdng{
+  width: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  border-top: 2px solid #e7e4da;
+}
+.thumbnail{
+  border: none;
+  border-bottom: 2px solid #e7e4da;
+  border-radius: 0px;
+  padding: 0px;
+  transition: border-color .5s ease-in-out;
+  -webkit-transition: border-color .5s ease-in-out;
+  -moz-transition: border-color .5s ease-in-out;
+  cursor: pointer;
+}
+.thumbnail .caption{
+  padding-left: 0px;
+}
+.thumbnail h4{
+  color: #333333;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+.thumbnail h5{
+  color: #666666;
+  margin-top: -5px;
+}
+.second-row, .third-row, .fourth-row{
+  margin-top: 60px;
+}
+.fourth-row{
+  margin-bottom: 90px;
+}
+.receipe-hdng{
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
+  margin-top: 15px;
+}
+.third-row h5{
+  color : #666666;
+}
+.third-row ul{
+    margin-left: 20px;
+}
+.third-row li{
+  font-weight: 300;
+  color: #666666;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+.third-row .ingredients{
+  color: #666666;
+  font-weight: 400;
+}
+.third-row .directions{
+  color: #666666;
+  line-height: 1.8em;
+}
+.third-row .basket-checkout{
+    color: #666666;
+    font-weight: 400;
+}
+.fourth-row .twitter .background{
+    display: table !important;
+}
+.fourth-row .twitter .twitter-icon{
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center; 
+    height: 60px;
+}
+.fourth-row .twitter .twitter-icon{
+
+}
+@media (min-width: 768px) {
+    .thumbnail:hover{
+      border-bottom-color: #e96125;
+      cursor: pointer;
+    }
+}
+@media (min-width: 992px){
+    .receipe-hdng{
+      margin-top: -3px;
+    }
+}
+@media (min-width: 1200px) {
+  .third-row  .col-md-height {
+    display: table-cell;
+    float: none !important;
+  }
+  .third-row .col-full-height{
+    vertical-align: top;
+    border-bottom: 2px solid #ddd;
+    transition: border-color .5s ease-in-out;
+    -webkit-transition: border-color .5s ease-in-out;
+    -moz-transition: border-color .5s ease-in-out;
+  }
+  .third-row .col-full-height:hover{
+    border-bottom-color: #e96125;
+    cursor: pointer;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .thumbnail .caption{
+        height: 105px;
+    }
+    .third-row .basket-checkout{
+        height: 40px;
+        border-bottom: 2px solid #e7e4da;
+        margin-bottom: 20px;
+    }
+}
+
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 767px) {
+      .constant-padding{
+          padding: 30px 20px;
+      }
+      .top-section{
+        margin: 5vh auto;
+      }
+      .personal-baskets .column{
+        height: 250px;
+      }
+      .personal-baskets .col-xs-12, .personal-baskets .col-sm-6,
+       .personal-baskets .col-md-3{   
+        padding: 5px 10px;
+      }
+      .personal-baskets .basket-image4 .twitter-icon{
+        margin: 68px auto 0px;
+      }
+      .third-row .basket-checkout{
+        height: 40px;
+        border-bottom: 2px solid #e7e4da;
+        margin-bottom: 20px;
+      }
+      .second-row, .third-row, .fourth-row{
+        margin-top: 0px;
+      }
+      .thumbnail{
+        margin-bottom: 35px;
+      }
+      .thumbnail .caption{
+        padding: 0 9px;
+      }
+  }
+
+   @media only screen and (max-width : 767px) and (orientation: landscape){
+      .top-section{
+        margin: 3vh auto;
+      }
+  }
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+      .constant-padding{
+        padding: 30px 0px;
+      }
+      .basket-heading{
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .top-section{
+        margin: 5vh auto;
+      }
+      .download-app-btn {
+        width: 135px;
+        height: 45px;
+        margin: 10px 5px;
+      }
+      .use-case-text{
+        line-height: 1.6;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+      .grofers-anything{
+        font-size: 22px;
+        text-align: center;
+      }
+      .or{
+        margin: 15px auto 25px;
+      }
+      .personal-baskets{
+          visibility: visible;
+      }
+      .personal-baskets span{
+          font-weight: 300;
+      }
+      section h2{
+        font-size: 18px;
+      }
+      .personal-baskets h2{
+        font-size: 18px;
+      }
+      .personal-baskets h3{
+        font-weight: 700;
+      }
+      .personal-baskets .column{
+        height: 160px;
+      }
+      .personal-baskets .column:hover{
+          background-color: rgba(0,0,0,0.2);
+          cursor: inherit;
+      }
+      #append-data .intl-tel-input{
+        height: 39px;
+      }
+      .intl-tel-input input{
+
+        /*line-height: 1.3em;*/
+      }
+      #get-app-button, .container .intl-tel-input #user-phone-value, .grofers-social-icon-phone, .code{
+        font-size: 18px;
+      }
+      .container .intl-tel-input #user-phone-value{
+        width: 150px;
+        margin-left: -5px;
+      }
+      .personal-baskets .basket-image4 .twitter-icon{
+        margin: 28px auto 0px;
+      }
+      .btn{
+        padding: 6px 8px;
+      }
+
+  }
+
+    /* side bar menu's footer (shouldn't clash with landing page footer) */
+  #cd-lateral-nav footer{
+    height: 60px;
+    border-top: 1px solid #eee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+  }
+  .mobile-footer {
+    color: #000;
+  }
+
+  /* Contact modal */
+  .modal-dialog{
+    margin-top: 100px;
+  }
+
+  /* Active merchant list */
+#merchantList{
+  height: 0px;
+  overflow: hidden;
+}
+#merchantList.list-inline>li {
+  margin: 10px;
+  width: 265px;
+  vertical-align: top;
+}

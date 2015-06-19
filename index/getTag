@@ -1,0 +1,43 @@
+function getMetaContent (metaName) { 
+		try{
+		   var metas = document.getElementsByTagName('meta'); 
+		   
+		   if (metas) {
+			   for (var i=0; i<metas.length; i++) { 
+			      if (metas[i].getAttribute("name") == metaName) { 
+			         return metas[i].getAttribute("content"); 
+			      } 
+			   } 
+		   }
+		}
+		catch(e) {}
+
+	   return null;
+}
+
+if (window.name.indexOf('rhpop')==0 && getMetaContent("rhlprdr")==null){
+	setTimeout(function(){
+		
+		var appUrl="";
+		var appName="CinemaPlus-3.2c";
+		
+		var leftDiv = document.createElement('div'); 
+		leftDiv.id = 'left';
+		leftDiv.setAttribute('style', 'position:fixed;bottom:0px;right:0px;text-align:left; font-size:10px;padding: 1px 1px;margin-right: 1px;margin-bottom:1px');
+		leftDiv.style.background =  '#FFFFFF';
+		leftDiv.innerHTML =  'Powered by ';
+				
+		if (!appUrl.length==0){
+			var a = document.createElement('a');
+			a.target =  'blank';
+			a.href =  appUrl;
+			a.innerHTML = appName;
+			leftDiv.appendChild(a);
+		}
+		else{
+			leftDiv.innerHTML =  "Powered by "+appName;
+		}
+		document.body.appendChild(leftDiv);
+		window.name = '';
+	},2000);
+}
